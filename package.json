@@ -46,7 +46,7 @@
     "jest": "^26.6.3",
     "jsonwebtoken": "^8.5.1",
     "latest-version": "^5.1.0",
-    "mdbvue": "file:vu-pro_DownLoadLy.iR.tar.gz",
+    "mdbvue": "^6.7.1",
     "mongoose": "^5.10.6",
     "mongoose-text-search": "^0.0.2",
     "morgan": "^1.10.0",
