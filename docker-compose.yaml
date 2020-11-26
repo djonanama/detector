@@ -126,7 +126,7 @@ services:
             - .env
             - .env.[PROD]
         environment:
-            MONSTACHE_MONGO_URL: "mongodb://root-admin:1Ta#ukB$$@database-mongodb:27017/?connect=direct"
+            MONSTACHE_MONGO_URL: "mongodb://root:root@database-mongodb:27017/?connect=direct"
             # - MONSTACHE_MONGO_URL=mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@database-mongodb:27017/?connect=direct&replicaSet=${MONGO_REPLICA_SET_NAME}
             # MONGO_INITDB_USERNAME=detector-user MONGO_INITDB_PASSWORD=iZYWj3WL
             MONSTACHE_ES_URLS: "http://elasticsearch:9200"
